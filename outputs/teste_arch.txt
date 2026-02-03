@@ -1,0 +1,7 @@
+[1] "Teste LM para Efeitos ARCH:"
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  residuos
+Chi-squared = 7.275, df = 12, p-value = 0.8389
+

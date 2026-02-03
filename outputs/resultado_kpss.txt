@@ -1,0 +1,14 @@
+[1] "Resumo do Teste KPSS (Série em Nível):"
+
+####################### 
+# KPSS Unit Root Test # 
+####################### 
+
+Test is of type: mu with 5 lags. 
+
+Value of test-statistic is: 0.3023 
+
+Critical value for a significance level of: 
+                10pct  5pct 2.5pct  1pct
+critical values 0.347 0.463  0.574 0.739
+

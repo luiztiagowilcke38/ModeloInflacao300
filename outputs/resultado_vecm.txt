@@ -1,0 +1,18 @@
+[1] "Modelo VECM Ajustado:"
+#############
+###Model VECM 
+#############
+Full sample size: 312 	End sample size: 309
+Number of variables: 2 	Number of estimated slope parameters 12
+AIC -269.1439 	BIC -220.6104 	SSR 1329.033
+Cointegrating vector (estimated by ML):
+   IPCA       Var2
+r1    1 -0.4758436
+
+
+              ECT                Intercept          IPCA -1           
+Equation IPCA -0.1099(0.0372)**  0.0130(0.0195)     -0.1926(0.0610)** 
+Equation Var2 1.8301(0.2300)***  -0.2067(0.1206).   -0.9674(0.3767)*  
+              Var2 -1             IPCA -2            Var2 -2            
+Equation IPCA -0.0388(0.0143)**   -0.1565(0.0587)**  -0.0229(0.0101)*   
+Equation Var2 -0.0808(0.0882)     -1.2379(0.3627)*** -0.0716(0.0623)    

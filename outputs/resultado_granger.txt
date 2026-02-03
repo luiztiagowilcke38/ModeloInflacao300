@@ -1,0 +1,17 @@
+[1] "Teste de Causalidade de Granger (Cambio -> IPCA):"
+$Granger
+
+	Granger causality H0: Cambio do not Granger-cause IPCA
+
+data:  VAR object modelo_var
+F-Test = 0.41477, df1 = 2, df2 = 608, p-value = 0.6607
+
+
+$Instant
+
+	H0: No instantaneous causality between: Cambio and IPCA
+
+data:  VAR object modelo_var
+Chi-squared = 154.43, df = 1, p-value < 2.2e-16
+
+

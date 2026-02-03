@@ -1,0 +1,48 @@
+=======================================================
+MODELO DE PREVISÃO DE INFLAÇÃO (2026-2040)
+Autor: Luiz Tiago Wilcke
+Data:  2026-02-02 
+=======================================================
+
+RESUMO DA EXECUÇÃO:
+- Tabela de métricas gerada com sucesso.
+- Projeções de longo prazo (Ensemble) concluídas.
+
+ARQUIVOS GERADOS NA PASTA 'outputs/':
+ [1] "analise_espectral.png"              "cenario_otimista_2026_2040.csv"    
+ [3] "cenario_pessimista_2026_2040.csv"   "comparacao_ensemble.png"           
+ [5] "componentes_prophet.png"            "componentes_tbats.png"             
+ [7] "decomposicao_stl.png"               "diagnostico_residuos_sarima.png"   
+ [9] "erros_cv.png"                       "estatisticas_descritivas.xlsx"     
+[11] "fan_chart_inflacao.png"             "filtro_hp.png"                     
+[13] "histograma_ipca.png"                "impulso_resposta.png"              
+[15] "modelo_arima_otimo.rds"             "modelo_egarch.rds"                 
+[17] "modelo_ets.rds"                     "modelo_garch.rds"                  
+[19] "modelo_prophet.rds"                 "modelo_sarima.rds"                 
+[21] "modelo_tgarch.rds"                  "modelo_var.rds"                    
+[23] "modelo_vecm.rds"                    "plot_acf_pacf.png"                 
+[25] "plot_bootstrap_2040.png"            "plot_cenario_otimista.png"         
+[27] "plot_cenario_pessimista.png"        "plot_serie_historica.png"          
+[29] "plot_za_test.png"                   "previsao_arimax.png"               
+[31] "previsao_ensemble_2026_2040.csv"    "previsao_ets.png"                  
+[33] "previsao_sarima_24m.csv"            "previsao_sarima_curto_prazo.png"   
+[35] "previsao_tbats.png"                 "projecao_longo_prazo_bootstrap.csv"
+[37] "qqplot_normalidade.png"             "RELATORIO_FINAL_INFLACAO.txt"      
+[39] "residuos_quadrado.png"              "resultado_adf.txt"                 
+[41] "resultado_arima_selection.txt"      "resultado_arimax.txt"              
+[43] "resultado_cv.txt"                   "resultado_egarch.txt"              
+[45] "resultado_ets.txt"                  "resultado_garch.txt"               
+[47] "resultado_granger.txt"              "resultado_johansen.txt"            
+[49] "resultado_kpss.txt"                 "resultado_pp.txt"                  
+[51] "resultado_sarima.txt"               "resultado_tgarch.txt"              
+[53] "resultado_var.txt"                  "resultado_vecm.txt"                
+[55] "resultado_za.txt"                   "resultados_normalidade.txt"        
+[57] "simulacao_volatilidade.png"         "tabela_metricas_final.xlsx"        
+[59] "teste_arch.txt"                     "teste_ljung_box.txt"               
+[61] "wavelet_transform.png"             
+
+
+CONCLUSÃO:
+O modelo utilizou técnicas de séries temporais (ARIMA, GARCH, ETS, Prophet) para projetar a inflação brasileira.
+Os dados foram coletados do Banco Central e processados em 42 módulos independentes.
+Verifique os gráficos 'plot_bootstrap_2040.png' e 'fan_chart_inflacao.png' para visualização das incertezas.

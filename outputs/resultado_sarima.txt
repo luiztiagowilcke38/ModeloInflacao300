@@ -1,0 +1,11 @@
+[1] "Modelo SARIMA Ajustado:"
+Series: ts_ipca 
+ARIMA(1,0,0)(1,0,1)[12] with non-zero mean 
+
+Coefficients:
+         ar1    sar1     sma1    mean
+      0.6077  0.8808  -0.7505  0.4975
+s.e.  0.0448  0.0806   0.1084  0.0795
+
+sigma^2 = 0.09424:  log likelihood = -73.43
+AIC=156.87   AICc=157.06   BIC=175.58

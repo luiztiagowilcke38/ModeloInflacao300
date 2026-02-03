@@ -1,0 +1,36 @@
+[1] "Resumo do Teste ADF (Série em Nível):"
+
+############################################### 
+# Augmented Dickey-Fuller Test Unit Root Test # 
+############################################### 
+
+Test regression drift 
+
+
+Call:
+lm(formula = z.diff ~ z.lag.1 + 1 + z.diff.lag)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.27943 -0.15687 -0.01271  0.14233  2.03574 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.19302    0.03086   6.255 1.34e-09 ***
+z.lag.1     -0.38835    0.05068  -7.662 2.41e-13 ***
+z.diff.lag  -0.01699    0.05693  -0.298    0.766    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.315 on 307 degrees of freedom
+Multiple R-squared:  0.1983,	Adjusted R-squared:  0.1931 
+F-statistic: 37.98 on 2 and 307 DF,  p-value: 1.833e-15
+
+
+Value of test-statistic is: -7.6622 29.3546 
+
+Critical values for test statistics: 
+      1pct  5pct 10pct
+tau2 -3.44 -2.87 -2.57
+phi1  6.47  4.61  3.79
+

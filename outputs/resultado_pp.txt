@@ -1,0 +1,37 @@
+[1] "Resumo do Teste PP (Série em Nível):"
+
+################################## 
+# Phillips-Perron Unit Root Test # 
+################################## 
+
+Test regression with intercept 
+
+
+Call:
+lm(formula = y ~ y.l1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.28005 -0.15402 -0.01307  0.13721  2.03354 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.19553    0.02872   6.808 5.15e-11 ***
+y.l1         0.60377    0.04536  13.311  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.315 on 309 degrees of freedom
+Multiple R-squared:  0.3644,	Adjusted R-squared:  0.3624 
+F-statistic: 177.2 on 1 and 309 DF,  p-value: < 2.2e-16
+
+
+Value of test-statistic, type: Z-tau  is: -8.8384 
+
+         aux. Z statistics
+Z-tau-mu             6.889
+
+Critical values for Z statistics: 
+                     1pct     5pct    10pct
+critical values -3.453092 -2.87099 -2.57177
+

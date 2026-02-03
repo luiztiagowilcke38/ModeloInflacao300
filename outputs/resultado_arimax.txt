@@ -1,0 +1,11 @@
+[1] "Modelo ARIMAX Ajustado:"
+Series: ts_ipca 
+Regression with ARIMA(1,0,0)(1,0,1)[12] errors 
+
+Coefficients:
+         ar1    sar1     sma1  intercept    xreg
+      0.5586  0.8570  -0.7508     0.3931  0.2340
+s.e.  0.0492  0.0993   0.1216     0.0552  0.0257
+
+sigma^2 = 0.07312:  log likelihood = -32.88
+AIC=77.76   AICc=78.04   BIC=100.22

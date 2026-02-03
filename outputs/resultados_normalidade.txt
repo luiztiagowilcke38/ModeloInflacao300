@@ -1,0 +1,14 @@
+[1] "Teste Jarque-Bera:"
+
+	Jarque Bera Test
+
+data:  dados$IPCA
+X-squared = 746.25, df = 2, p-value < 2.2e-16
+
+[1] "Teste Shapiro-Wilk:"
+
+	Shapiro-Wilk normality test
+
+data:  dados$IPCA
+W = 0.90312, p-value = 2.986e-13
+

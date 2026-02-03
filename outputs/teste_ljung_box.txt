@@ -1,0 +1,14 @@
+[1] "Teste de Ljung-Box nos Resíduos:"
+
+	Box-Ljung test
+
+data:  residuals(fit_sarima)
+X-squared = 0.046421, df = 1, p-value = 0.8294
+
+[1] "Teste de Ljung-Box nos Resíduos:"
+
+	Box-Ljung test
+
+data:  residuals(fit_sarima)
+X-squared = 0.046421, df = 1, p-value = 0.8294
+

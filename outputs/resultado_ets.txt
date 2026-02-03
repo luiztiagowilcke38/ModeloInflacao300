@@ -1,0 +1,19 @@
+[1] "Modelo ETS Selecionado Automaticamente:"
+ETS(A,N,A) 
+
+Call:
+ets(y = ts_ipca)
+
+  Smoothing parameters:
+    alpha = 0.6282 
+    gamma = 0.1245 
+
+  Initial states:
+    l = 0.2206 
+    s = 0.2243 0.1822 -0.0623 -0.1608 -0.0293 0.0401
+           -0.4749 -0.2328 0.0762 0.0055 0.1084 0.3236
+
+  sigma:  0.3292
+
+     AIC     AICc      BIC 
+1114.143 1115.765 1170.289 
